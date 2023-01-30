@@ -11,11 +11,11 @@ $( document ).ready(function() {
                 var response = _data;
                 console.log(response.slip.advice);
 
-                mensagemMotivacional.innerHTML = "";
+                mensagemMotivacional.innerHTML = ""; 
                 mensagemMotivacional.innerHTML = `
                 <span id="mensagemMotivacional" title="Mensagem Motivacional">
                   ${response.slip.advice}
-                </span>
+                </span> 
               `;
             },
             error: _data => {
