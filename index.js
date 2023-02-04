@@ -18,7 +18,7 @@ $( document ).ready(function() {
                 </span> 
               `;
             },
-            error: _data => {
+            error: _data => { 
                 alert("Erro ao tentar acessar a rota");
             }
 
